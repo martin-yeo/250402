@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: Noto Sans KR, Hi Melody, sans-serif;
+    font-size: 2vw;
+}
+
+h1 {
+    background-color: rgb(255, 105, 180, 40%);
+    color: beige;
+    font-size: 2em;
+}
+
+div {
+    margin: 20px 15px 10px 5px;
+    padding: 10px;
+    border: outset 10px gray;
+}
+
+div::before {
+    content: '★';
+}
+
+div::after {
+    content: '★';
+}
+
+/* div:active {
+    background-color: aqua;
+} */
+
+#todolist, #last_li {
+    background-color: burlywood;
+    font-family: Poppins, sans-serif;
+}
+
+.point3 {
+    font-family: Hi Melody, sans-serif;
+}
+
+/* #last_li {
+    font-weight: 800;
+    font-style: italic;
+    color: beige;
+} */
+
+a {
+    color: brown;
+}
+
+a:visited {
+    text-decoration: line-through;
+}
+
+a:hover {
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+a:active {
+    background-color: black;
+    color: white;
+}
+
+div > ul {
+    font-style: italic;
+}
+
+div li {
+    color: red; 
+}
+
+span {
+    font-size: 0.8em;
+}
+
+a ~ span {
+    font-size: 0.5em;
+}
+
+button:hover {
+    font-weight: 900;
+}
+
+button:active {
+    background-color: cyan;
+    color: beige;
+}
+
+input:focus {
+    color: red;
+}
+
+input:disabled {
+    display: none;
+}
+
+li:first-child {
+    font-size: 1.2em;
+}
+
+li:nth-child(2) {
+    color: blue;
+}
+li:last-child {
+    font-size: 1.7em;
+}
